@@ -1,0 +1,604 @@
+/* /////////////////////////////////////////// */
+
+/* MOBILE /////////////////////////////////// */
+
+/* /////////////////////////////////////////// */
+@media screen and (max-width:2000px) {
+	body {
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		font-family: 'Poppins', sans-serif;
+	}
+	a {
+		font: inherit;
+		color: inherit;
+		text-decoration: none
+	}
+	/* BLOCO TOPO //////////////////////////// */
+	.bloco_topo {
+		background-image: url(../images/fundo_1.png);
+		width: 100%;
+		height: 500px;
+		display: table;
+	}
+	.bloco_topo img {
+		width: 10%;
+		margin: 5% 25% 5% 45%;
+		display: block;
+		padding: 0 0 2% 0;
+		border-bottom: 1px solid #20ddff;
+	}
+	.bloco_topo span {
+		width: 100%;
+		display: table;
+		text-align: center;
+		font-size: 23px;
+		color: #fff;
+		font-family: 'Hind', sans-serif;
+		font-style: bold;
+	}
+	.bloco_topo span img {
+		width: 5%;
+		display: table;
+		margin: -9% 0 0 47.5%;
+		border-bottom: none;
+		text-align: center;
+		position: absolute;
+	}
+	.div_baixo {
+		width: 5%;
+		position: absolute;
+		margin: -2% 0 0 47.5%;
+	}
+
+	/* BLOCO VANTAGEM //////////////////////////// */
+	.bloco_vantagem {
+		width: 100%;
+		height: 400px;
+		background-color: #9d080c;
+		display: table;
+	}
+	.bloco_vantagem h2 {
+		width: 100%;
+		color: #fff;
+		font-size: 19px;
+		text-align: center;
+		margin-top: 10%;
+		display: table;
+		font-family: 'Hind', sans-serif;
+	}
+	.bloco_vantagem li {
+		width: calc(90% - 80px);
+		display: table;
+		color: #fff;
+		font-size: 15px;
+		font-family: 'Archivo Narrow', sans-serif;
+		margin: 5%;
+		border-bottom: 1px solid #fff;
+		text-align: left;
+		padding: 0 0 2% 0;
+		background-image: url('../images/seta.png');
+		background-position: left top;
+		background-repeat: no-repeat;
+		background-size: 15px;
+	}
+	.bloco_vantagem li span {
+		width: 100%;
+		margin: 10%;
+	}
+	.bloco_vantagem li span img {
+		width: 5%;
+		border-top: 5%;
+	}
+
+	/* BLOCO GESTÃO //////////////////////////// */
+	.bloco_gestao {
+		width: 100%;
+		height: 300px;
+		display: table;
+	}
+	.bloco_gestao img {
+		width: 5%;
+		display: table;
+		margin: 5% 0 0 47.5%;
+		text-align: center;
+	}
+	.bloco_gestao h2 {
+		width: 100%;
+		display: table;
+		margin: 2% 0 0 0;
+		color: #9d080c;
+		text-align: center;
+		font-size: 19px;
+	}
+	.bloco_gestao li {
+		width: calc(100% - 40px);
+		font-family: 'Archivo Narrow', sans-serif;
+		color: #9d080c;
+		font-size: 15px;
+		margin: 5% 0 0 0;
+		padding: 0 30px 0 2px;
+	}
+
+	/* BLOCO FORM //////////////////////////// */
+	.bloco_form {
+		background-image: url('../images/fundo_2.png');
+		background-size: 500px;
+		width: 100%;
+		height: 550px;
+		display: table;
+	}
+	.bloco_form span {
+		width: 30%;
+		font-family: 'Archivo Narrow', sans-serif;
+		color: #fff;
+		font-size: 15px;
+		margin: 5% 0% 5% 35%;
+		text-align: center;
+		position: absolute;
+	}
+	.form1 {
+		background-color: #272525;
+		background-size: 200px;
+		height: 300px;
+		width: 80%;
+		margin: 10% 25% 25% 12%;
+		position: absolute;
+		opacity: 0.9;
+		background-image: bottom 0
+	}
+	.form1 span {
+		display: table;
+		width: 80%;
+	}
+	.form1 input {
+		display: table;
+		width: calc(30% - 3px);
+		color: #8e8e8e;
+		padding: 2%;
+		margin: 0 0 8px 0;
+		border-radius: 0px;
+		font-family: 'Archivo Narrow', sans-serif;
+	}
+	.form1 button {
+		width: 15%;
+		height: 45px;
+		display: table;
+		margin: 23% 25% 25% 40%;
+		font-size: 15px;
+		position: absolute;
+		color: #fff;
+		font-family: 'Archivo Narrow', sans-serif;
+		background-color: #44c0ec;
+		border: none;
+		font-style: bold;
+		cursor: pointer;
+	}
+
+	/* BLOCO DEPART //////////////////////////// */
+	.bloco_depart {
+		width: 100%;
+		height: 300px;
+		background-color: #9d080c;
+		display: table;
+	}
+	.bloco_depart img {
+		width: 5%;
+		display: table;
+		margin: 5% 0 0 47.5%;
+		text-align: center;
+	}
+	.bloco_depart h2 {
+		width: 100%;
+		display: table;
+		margin: 2% 0 0 0;
+		color: #FFF;
+		text-align: center;
+		font-size: 19px;
+	}
+	.bloco_depart li {
+		width: calc(100% - 40px);
+		font-family: 'Archivo Narrow', sans-serif;
+		color: #FFF;
+		font-size: 15px;
+		margin: 3% 0 3% 0;
+		padding: 0 30px 2% 5px;
+	}
+
+	/* BLOCO FORM 2 //////////////////////////// */
+	.bloco_form2 {
+		background-size: 500px;
+		width: 100%;
+		height: 450px;
+		display: table;
+	}
+	.bloco_form2 span {
+		width: 70%;
+		font-family: 'Archivo Narrow', sans-serif;
+		color: #9d080c;
+		font-size: 15px;
+		margin: 10% 25% 5% 15%;
+		text-align: center;
+		position: absolute;
+	}
+	.form2 {
+		background-color: #9d080c;
+		background-size: 200px;
+		height: 200px;
+		width: 80%;
+		margin: 45% 25% 25% 10%;
+		position: absolute;
+	}
+	.form2 span {
+		display: table;
+		width: 100%;
+	}
+	.form2 input {
+		display: table;
+		width: calc(66% - 3px);
+		color: #8e8e8e;
+		padding: 2%;
+		margin: 0 0 10px 0;
+		border-radius: 0px;
+		font-family: 'Archivo Narrow', sans-serif;
+	}
+	.form2 button {
+		width: 40%;
+		height: 40px;
+		display: table;
+		margin: 60% 25% 25% 30%;
+		font-size: 15px;
+		position: absolute;
+		color: #fff;
+		font-family: 'Archivo Narrow', sans-serif;
+		background-color: #272525;
+		border: none;
+		font-style: bold;
+		cursor: pointer;
+	}
+	.img_mini {
+		width: 100%;
+		top: 0;
+	}
+	.img_mini img {
+		width: 88%;
+		position: absolute;
+		margin: 115% 0 0 5%;
+	}
+
+	/* BLOCO RODAPÉ //////////////////////////// */
+	.bloco_rodape {
+		width: 100%;
+		height: 350px;
+		background-color: #24201f;
+		display: table;
+	}
+	.bloco_rodape span {
+		width: 100%;
+		display: table;
+		font-family: 'Archivo Narrow', sans-serif;
+		color: #fff;
+		font-size: 15px;
+		margin: 10% 0 5% 0;
+		text-align: center;
+	}
+	.svg_face {
+		width: 100%;
+		text-align: center;
+		margin: 10% 0 0 0;
+	}
+}
+
+/* /////////////////////////////////////////// */
+
+/* MOBILE 370px/////////////////////////////// */
+
+/* /////////////////////////////////////////// */
+@media screen and (max-width:370px) {
+
+	/* IMAGEM REPETIDA DO ULTIMO FORM ///////////// */
+	.img_mini { display: none; width: 100%; top: 0; }
+	.img_mini img { width: 88%; position: absolute; margin: 115% 0 0 5%; }
+}
+/* /////////////////////////////////////////// */
+
+/* MOBILE /////////////////////////////////// */
+
+/* /////////////////////////////////////////// */
+@media screen and (max-width:700px) {
+	body {
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		font-family: 'Poppins', sans-serif;
+	}
+	a {
+		font: inherit;
+		color: inherit;
+		text-decoration: none
+	}
+	/* BLOCO TOPO //////////////////////////// */
+	.bloco_topo {
+		background-image: url(../images/fundo_1.png);
+		width: 100%;
+		height: 500px;
+		display: table;
+	}
+	.bloco_topo img {
+		width: 50%;
+		margin: 25% 25% 5% 25%;
+		display: block;
+		padding: 0 0 10% 0;
+		border-bottom: 1px solid #20ddff;
+	}
+	.bloco_topo span {
+		width: 100%;
+		display: table;
+		text-align: center;
+		font-size: 23px;
+		color: #fff;
+		font-family: 'Hind', sans-serif;
+		font-style: bold;
+	}
+	.bloco_topo span img {
+		width: 20%;
+		display: table;
+		margin: 5% 0 0 40%;
+		border-bottom: none;
+		text-align: center;
+		position: absolute;
+	}
+	.div_baixo {
+		width: 18%;
+		position: absolute;
+		margin: -10% 0 0 40%;
+	}
+
+	/* BLOCO VANTAGEM //////////////////////////// */
+	.bloco_vantagem {
+		width: 100%;
+		height: 400px;
+		background-color: #9d080c;
+		display: table;
+	}
+	.bloco_vantagem h2 {
+		width: 100%;
+		color: #fff;
+		font-size: 19px;
+		text-align: center;
+		margin-top: 15%;
+		display: table;
+		font-family: 'Hind', sans-serif;
+	}
+	.bloco_vantagem li {
+		width: calc(90% - 80px);
+		display: table;
+		color: #fff;
+		font-size: 15px;
+		font-family: 'Archivo Narrow', sans-serif;
+		margin: 5%;
+		border-bottom: 1px solid #fff;
+		text-align: left;
+		padding: 0 40px 2% 40px;
+		background-image: url('../images/seta.png');
+		background-position: left top;
+		background-repeat: no-repeat;
+		background-size: 15px;
+	}
+	.bloco_vantagem li span {
+		width: 100%;
+		margin: 10%;
+	}
+	.bloco_vantagem li span img {
+		width: 5%;
+		border-top: 5%;
+	}
+
+	/* BLOCO GESTÃO //////////////////////////// */
+	.bloco_gestao {
+		width: 100%;
+		height: 300px;
+		display: table;
+	}
+	.bloco_gestao img {
+		width: 25%;
+		display: table;
+		margin: 5% 0 0 35%;
+		text-align: center;
+	}
+	.bloco_gestao h2 {
+		width: 100%;
+		display: table;
+		margin: 5% 0 0 0;
+		color: #9d080c;
+		text-align: center;
+		font-size: 19px;
+	}
+	.bloco_gestao li {
+		width: calc(100% - 40px);
+		font-family: 'Archivo Narrow', sans-serif;
+		color: #9d080c;
+		font-size: 15px;
+		margin: 3% 0 3% 0;
+		padding: 0 30px 2% 5px;
+	}
+
+	/* BLOCO FORM //////////////////////////// */
+	.bloco_form {
+		background-image: url('../images/fundo_2.png');
+		background-size: 500px;
+		width: 100%;
+		height: 450px;
+		display: table;
+	}
+	.bloco_form span {
+		width: 70%;
+		font-family: 'Archivo Narrow', sans-serif;
+		color: #fff;
+		font-size: 15px;
+		margin: 10% 25% 5% 15%;
+		text-align: center;
+		position: absolute;
+	}
+	.form1 {
+		background-color: #272525;
+		background-size: 200px;
+		height: 200px;
+		width: 80%;
+		margin: 45% 25% 25% 10%;
+		position: absolute;
+		opacity: 0.9;
+		background-image: bottom 0
+	}
+	.form1 span {
+		display: table;
+		width: 100%;
+	}
+	.form1 input {
+		display: table;
+		width: calc(66% - 3px);
+		color: #8e8e8e;
+		padding: 2%;
+		margin: 0 0 10px 0;
+		border-radius: 0px;
+		font-family: 'Archivo Narrow', sans-serif;
+	}
+	.form1 button {
+		width: 40%;
+		height: 40px;
+		display: table;
+		margin: 60% 25% 25% 30%;
+		font-size: 15px;
+		position: absolute;
+		color: #fff;
+		font-family: 'Archivo Narrow', sans-serif;
+		background-color: #44c0ec;
+		border: none;
+		font-style: bold;
+		cursor: pointer;
+	}
+
+	/* BLOCO DEPART //////////////////////////// */
+	.bloco_depart {
+		width: 100%;
+		height: 300px;
+		background-color: #9d080c;
+		display: table;
+	}
+	.bloco_depart img {
+		width: 20%;
+		display: table;
+		margin: 5% 0 0 40%;
+		text-align: center;
+	}
+	.bloco_depart h2 {
+		width: 100%;
+		display: table;
+		margin: 5% 0 0 0;
+		color: #FFF;
+		text-align: center;
+		font-size: 19px;
+	}
+	.bloco_depart li {
+		width: calc(100% - 40px);
+		font-family: 'Archivo Narrow', sans-serif;
+		color: #FFF;
+		font-size: 15px;
+		margin: 3% 0 3% 0;
+		padding: 0 30px 2% 5px;
+	}
+
+	/* BLOCO FORM 2 //////////////////////////// */
+	.bloco_form2 {
+		background-size: 500px;
+		width: 100%;
+		height: 450px;
+		display: table;
+	}
+	.bloco_form2 span {
+		width: 70%;
+		font-family: 'Archivo Narrow', sans-serif;
+		color: #9d080c;
+		font-size: 15px;
+		margin: 10% 25% 5% 15%;
+		text-align: center;
+		position: absolute;
+	}
+	.form2 {
+		background-color: #9d080c;
+		background-size: 200px;
+		height: 200px;
+		width: 80%;
+		margin: 45% 25% 25% 10%;
+		position: absolute;
+	}
+	.form2 span {
+		display: table;
+		width: 100%;
+	}
+	.form2 input {
+		display: table;
+		width: calc(66% - 3px);
+		color: #8e8e8e;
+		padding: 2%;
+		margin: 0 0 10px 0;
+		border-radius: 0px;
+		font-family: 'Archivo Narrow', sans-serif;
+	}
+	.form2 button {
+		width: 40%;
+		height: 40px;
+		display: table;
+		margin: 60% 25% 25% 30%;
+		font-size: 15px;
+		position: absolute;
+		color: #fff;
+		font-family: 'Archivo Narrow', sans-serif;
+		background-color: #272525;
+		border: none;
+		font-style: bold;
+		cursor: pointer;
+	}
+	.img_mini {
+		width: 100%;
+		top: 0;
+	}
+	.img_mini img {
+		width: 88%;
+		position: absolute;
+		margin: 115% 0 0 5%;
+	}
+
+	/* BLOCO RODAPÉ //////////////////////////// */
+	.bloco_rodape {
+		width: 100%;
+		height: 350px;
+		background-color: #24201f;
+		display: table;
+	}
+	.bloco_rodape span {
+		width: 100%;
+		display: table;
+		font-family: 'Archivo Narrow', sans-serif;
+		color: #fff;
+		font-size: 15px;
+		margin: 10% 0 5% 0;
+		text-align: center;
+	}
+	.svg_face {
+		width: 100%;
+		text-align: center;
+		margin: 10% 0 0 0;
+	}
+}
+
+/* /////////////////////////////////////////// */
+
+/* MOBILE 370px/////////////////////////////// */
+
+/* /////////////////////////////////////////// */
+@media screen and (max-width:370px) {
+
+	/* IMAGEM REPETIDA DO ULTIMO FORM ///////////// */
+	.img_mini { display: none; width: 100%; top: 0; }
+	.img_mini img { width: 88%; position: absolute; margin: 115% 0 0 5%; }
+}
